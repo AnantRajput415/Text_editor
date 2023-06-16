@@ -20,6 +20,14 @@ TexEdit::TexEdit(QWidget *parent)
     connect(ui->actionRedo, &QAction::triggered, this, &TexEdit::redo);
     connect(ui->actionFont, &QAction::triggered, this, &TexEdit::changeFont);
     connect(ui->actionAbout, &QAction::triggered, this, &TexEdit::about);
+
+    // shortcuts
+    ui->actionNew->setShortcut(QKeySequence("Ctrl+n"));
+    ui->actionOpen->setShortcut(QKeySequence("Ctrl+o"));
+    ui->actionSave->setShortcut(QKeySequence("Ctrl+s"));
+    ui->actionSave_As->setShortcut(QKeySequence("Ctrl+Shift+s"));
+    ui->actionUndo->setShortcut(QKeySequence("Ctrl+z"));
+    ui->actionRedo->setShortcut(QKeySequence("Ctrl+y"));
 }
 
 TexEdit::~TexEdit()
