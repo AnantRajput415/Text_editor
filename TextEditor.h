@@ -41,13 +41,13 @@ namespace Ui
 
         void selectFont();
 
-        void setFontBold(bool bold);
-
-        void setFontUnderline(bool underline);
-
-        void setFontItalic(bool italic);
-
-        void about();
+        // void setFontBold(bool bold);
+        // 
+        // void setFontUnderline(bool underline);
+        // 
+        // void setFontItalic(bool italic);
+        // 
+        // void about();
 
 
 
