@@ -31,7 +31,7 @@ TextEditor::TextEditor(QWidget *parent)
     //connect(ui->actionBold, &QAction::triggered, this, &TextEditor::setFontBold);
     //connect(ui->actionUnderline, &QAction::triggered, this, &TextEditor::setFontUnderline);
     //connect(ui->actionItalic, &QAction::triggered, this, &TextEditor::setFontItalic);
-    connect(ui->actionAbout, &QAction::triggered, this, &TextEditor::about);
+    // connect(ui->actionAbout, &QAction::triggered, this, &TextEditor::about);
 
     // Disable menu actions for unavailable features
 #if !defined(QT_PRINTSUPPORT_LIB) || !QT_CONFIG(printer)

@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="TextEditor">
+    <qresource prefix="/TextEditor">
+        <file>TextEditor.ui</file>
     </qresource>
 </RCC>
